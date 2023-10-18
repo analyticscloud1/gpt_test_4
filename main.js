@@ -1,7 +1,7 @@
 var ajaxCall = (query, language) => {
   return new Promise((resolve, reject) => {
     $.ajax({
-      url: "https://851e-2401-4900-1c1a-8fff-00-697-4baa.ngrok-free.app",
+      url: "https://martin-inviting-wolf.ngrok-free.app",
       type: "POST",
       dataType: "json",
       data: JSON.stringify({
