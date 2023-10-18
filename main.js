@@ -37,7 +37,7 @@ var ajaxCall = (query, language) => {
         language
       );
       //console.log(response.choices[0].text);
-      return response.choices[0].text;
+      return response;
     }
   }
   customElements.define("custom-widget", MainWebComponent);
